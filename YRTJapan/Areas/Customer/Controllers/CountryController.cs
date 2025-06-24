@@ -9,5 +9,17 @@ namespace YRTJapan.UI.Areas.Customer.Controllers
         {
             return View();
         }
+        public IActionResult Tanzania()
+        {
+            return View();
+        } 
+        public IActionResult Kenya()
+        {
+            return View();
+        }
+        public IActionResult DRCongo()
+        {
+            return View();
+        }
     }
 }

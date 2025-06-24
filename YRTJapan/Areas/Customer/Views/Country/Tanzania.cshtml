@@ -1,13 +1,12 @@
 ﻿@{
-    ViewBag.Title = "Buy used Japanese vehicles in Zambia only at YRT Japan!";
+    ViewBag.Title = "Import used cars from Japan to Tanzania with YRT!";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @section MetaTags {
-    <meta name="description" content="Are you looking for used Japanese cars for sale in Zambia from reliable sellers? Check out YRT Japan today for the best car deal!">
+    <meta name="description" content="Find the best Japanese used cars for sale in Tanzania at YRT Japan. Explore our catalogue and pick your next car today!">
 }
 
-<!-- Custom Styles -->
 <style>
     .bg-red-gradient {
         background: linear-gradient(135deg, #c10000, #7b0000);
@@ -65,71 +64,65 @@
 <!-- Header -->
 <header class="bg-red-gradient text-white py-5 text-center">
     <div class="container">
-        <h1 class="display-5 fw-bold">Buy Japanese Cars in Zambia</h1>
-        <p class="lead mt-2">Get the best deals on reliable Japanese vehicles – only at YRT Japan</p>
+        <h1 class="display-5 fw-bold">Import Used Japanese Cars in Tanzania</h1>
+        <p class="lead mt-2">Explore YRT Japan’s trusted inventory and get your dream car delivered to Tanzania</p>
         <a href="#catalogue" class="btn btn-light btn-lg mt-3">Browse Vehicles</a>
     </div>
 </header>
 
-<!-- Intro Section -->
+<!-- Intro -->
 <section class="py-5 bg-light text-center">
     <div class="container">
-        <h2 class="text-red fw-bold mb-3">Drive Your Dream Car in Zambia</h2>
-        <p class="lead">We connect you to top Japanese car auctions, handle shipping, and deliver right to Zambia.</p>
-        <a href="#faqs" class="btn btn-red mt-3">Got Questions?</a>
+        <h2 class="text-red fw-bold mb-3">Your Trusted Partner in Tanzania</h2>
+        <p class="lead">We simplify the process of buying used cars from Japan and delivering them to Tanzania with full support.</p>
+        <a href="#faqs" class="btn btn-red mt-3">Have Questions?</a>
     </div>
 </section>
 
-<!-- Catalogue Section -->
+<!-- Catalogue -->
 <section class="py-5" id="catalogue">
     <div class="container">
-        <h3 class="section-title">Buy Japanese Cars in Zambia</h3>
-        <p>YRT can make your dream of owning a reliable and fuel efficient Japanese car a reality. Browse our catalogue to find the best used cars, SUVs, and vans imported directly from Japan.</p>
-        <p>We provide not only the best stock but also access to premium Japanese automobile auctions.</p>
+        <h3 class="section-title">The Best Japanese Cars in Tanzania with YRT Japan</h3>
+        <p>Japanese cars are known globally for their reliability and fuel efficiency. YRT Japan helps you access the best used Japanese cars for sale in Tanzania. Whether from our stock list or live auctions, you’ll find your ideal car here.</p>
     </div>
 </section>
 
-<!-- Paperwork Section -->
+<!-- Transparency -->
 <section class="bg-light py-5">
     <div class="container">
-        <h3 class="section-title">Leave the Paperwork to Us</h3>
-        <p>Don’t worry about the complexity of the import process. We manage everything – from vehicle inspection to documentation and shipping – so you can relax and wait for your delivery.</p>
-        <p>Every vehicle is checked thoroughly to ensure you get the best deal.</p>
+        <h3 class="section-title">Transparent Dealings</h3>
+        <p>We believe in complete transparency. When you select a vehicle, we provide you with all details and pictures to ensure you're confident before purchase.</p>
     </div>
 </section>
 
-<!-- Delivery Section -->
+<!-- Assistance -->
 <section class="py-5">
     <div class="container">
-        <h3 class="section-title">Secure & Fast Delivery to Zambia</h3>
-        <p>We work with trusted logistics partners to ensure your car arrives safely and on time. Our shipping system guarantees a smooth and secure experience, no matter where in Zambia you are.</p>
-        <a href="#reviews" class="btn btn-red mt-3">Hear from our customers</a>
+        <h3 class="section-title">We Are with You at Every Step</h3>
+        <p>YRT manages everything — paperwork, regulations, inspection, and shipping — so you don’t have to. We stay in touch and support you until your vehicle is safely delivered in Tanzania.</p>
+        <a href="#reviews" class="btn btn-red mt-3">See Customer Feedback</a>
     </div>
 </section>
 
 <!-- Reviews -->
 <section class="bg-light py-5" id="reviews">
     <div class="container">
-        <h3 class="section-title">Customer Testimonials</h3>
-        @foreach (var review in new[]{
-        new {Name="Ms. Jika N.", Comment="My ordered vehicle has safely arrived in Zambia and is in top condition. Highly grateful to YRT."},
-        new {Name="Mr. Michael P.", Comment="I now own and drive a fuel-efficient Japanese car. Delivered quickly!"},
-        new {Name="Mr. Mutale N.", Comment="I thought it’d be complex to import, but YRT made it so easy!"},
-        new {Name="Ms. Florence M.", Comment="I’m very glad to receive the IST in excellent condition. Thank you Yuki and Lusaka office."},
-        new {Name="Ms. Catherine N.", Comment="My car arrived in good time. Everyone loves it. I'm impressed and happy!"},
-        new {Name="Mr. John S.", Comment="Vehicle from Nakonde is excellent. You’re a lovely company!"},
-        new {Name="Mr. Aaron M.", Comment="This is my second purchase. Never disappointed. My friends are buying from you too!"}
+        <h3 class="section-title">What Customers in Tanzania Say</h3>
+        @foreach (var review in new[] {
+        new {Name="Mr. Faraji J.", Comment="I always feared import processes, but YRT made it seamless. My car arrived safely in Tanzania. I recommend them!"},
+        new {Name="Ms. Editha H.", Comment="Thanks to YRT for helping me buy a used car and shipping it quickly. Truly happy with their service."},
+        new {Name="Mr. Kito M.", Comment="I received my NISSAN DAYZ 2024 in perfect condition. I will return to YRT next time I need a car."}
         })
         {
             <div class="review-card">
-                <strong>@review.Name (Zambia)</strong>
+                <strong>@review.Name (Tanzania)</strong>
                 <p>@review.Comment</p>
             </div>
         }
     </div>
 </section>
 
-<!-- FAQ Section -->
+<!-- FAQs -->
 <section class="py-5" id="faqs">
     <div class="container">
         <h3 class="section-title">Frequently Asked Questions</h3>
@@ -138,12 +131,12 @@
                 <h2 class="accordion-header" id="faq1Heading">
                     <button class="accordion-button collapsed faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq1"
                             aria-expanded="false" aria-controls="faq1">
-                        <i class="bi bi-truck faq-icon"></i> What is the process of importing a car from Japan?
+                        <i class="bi bi-truck faq-icon"></i> How to import Japanese used cars in Tanzania?
                     </button>
                 </h2>
                 <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1Heading" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        We handle the full process: auction bidding, inspection, export documentation, and delivery to Zambia. You just choose your vehicle!
+                        Just connect with YRT Japan. We’ll handle the entire import process including auction, inspection, documentation, and shipping to Tanzania.
                     </div>
                 </div>
             </div>
@@ -151,12 +144,12 @@
                 <h2 class="accordion-header" id="faq2Heading">
                     <button class="accordion-button collapsed faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq2"
                             aria-expanded="false" aria-controls="faq2">
-                        <i class="bi bi-clock-history faq-icon"></i> How long can Japanese cars last?
+                        <i class="bi bi-currency-dollar faq-icon"></i> What is the best low-price car in Tanzania?
                     </button>
                 </h2>
                 <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2Heading" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        Typically 13–15 years or more with proper care. Japanese cars are known for longevity and reliability. We provide condition and mileage details.
+                        YRT offers a wide range of high-performing and budget-friendly cars. Check our stock list to find the best deals for your budget.
                     </div>
                 </div>
             </div>
@@ -167,9 +160,9 @@
 <!-- Footer CTA -->
 <footer class="bg-red-gradient text-white text-center py-5">
     <div class="container">
-        <h4 class="fw-bold">Ready to Get Your Japanese Car?</h4>
-        <p>Browse our inventory and order today – we’ll take care of the rest!</p>
-        <a href="#catalogue" class="btn btn-light btn-lg mt-2">Explore Now</a>
+        <h4 class="fw-bold">Get Started with Your Japanese Car in Tanzania</h4>
+        <p>Explore our reliable and affordable vehicle options today!</p>
+        <a href="#catalogue" class="btn btn-light btn-lg mt-2">Browse Catalogue</a>
     </div>
 </footer>
 

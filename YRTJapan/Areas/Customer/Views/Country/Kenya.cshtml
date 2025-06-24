@@ -1,13 +1,12 @@
 ﻿@{
-    ViewBag.Title = "Buy used Japanese vehicles in Zambia only at YRT Japan!";
+    ViewBag.Title = "Buy used Japanese cars in Kenya with YRT!";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @section MetaTags {
-    <meta name="description" content="Are you looking for used Japanese cars for sale in Zambia from reliable sellers? Check out YRT Japan today for the best car deal!">
+    <meta name="description" content="Import the best used Japanese vehicles in Kenya with YRT and enjoy quick and secure delivery!">
 }
 
-<!-- Custom Styles -->
 <style>
     .bg-red-gradient {
         background: linear-gradient(135deg, #c10000, #7b0000);
@@ -65,71 +64,67 @@
 <!-- Header -->
 <header class="bg-red-gradient text-white py-5 text-center">
     <div class="container">
-        <h1 class="display-5 fw-bold">Buy Japanese Cars in Zambia</h1>
-        <p class="lead mt-2">Get the best deals on reliable Japanese vehicles – only at YRT Japan</p>
+        <h1 class="display-5 fw-bold">Import Japanese Cars to Kenya</h1>
+        <p class="lead mt-2">Affordable & Reliable Japanese Cars and Auto Parts – Delivered Across Kenya</p>
         <a href="#catalogue" class="btn btn-light btn-lg mt-3">Browse Vehicles</a>
     </div>
 </header>
 
-<!-- Intro Section -->
+<!-- Intro -->
 <section class="py-5 bg-light text-center">
     <div class="container">
-        <h2 class="text-red fw-bold mb-3">Drive Your Dream Car in Zambia</h2>
-        <p class="lead">We connect you to top Japanese car auctions, handle shipping, and deliver right to Zambia.</p>
-        <a href="#faqs" class="btn btn-red mt-3">Got Questions?</a>
+        <h2 class="text-red fw-bold mb-3">Drive Your Dream Car in Kenya</h2>
+        <p class="lead">We connect you with Japan’s top auctions, handle shipping and paperwork, and deliver to your city.</p>
+        <a href="#faqs" class="btn btn-red mt-3">Have Questions?</a>
     </div>
 </section>
 
-<!-- Catalogue Section -->
+<!-- Catalogue -->
 <section class="py-5" id="catalogue">
     <div class="container">
-        <h3 class="section-title">Buy Japanese Cars in Zambia</h3>
-        <p>YRT can make your dream of owning a reliable and fuel efficient Japanese car a reality. Browse our catalogue to find the best used cars, SUVs, and vans imported directly from Japan.</p>
-        <p>We provide not only the best stock but also access to premium Japanese automobile auctions.</p>
+        <h3 class="section-title">Affordable & Reliable Used Japanese Vehicles in Kenya</h3>
+        <p>Japanese vehicles are famous for their long-lasting performance, fuel efficiency, and advanced engineering. At YRT, we make these top-quality vehicles accessible to customers in Kenya — all within your budget.</p>
+        <p>From our live auction access to ready-to-ship stock, you’ll find a wide range of used Japanese cars and parts customized to your needs.</p>
     </div>
 </section>
 
-<!-- Paperwork Section -->
+<!-- Parts & Selection -->
 <section class="bg-light py-5">
     <div class="container">
-        <h3 class="section-title">Leave the Paperwork to Us</h3>
-        <p>Don’t worry about the complexity of the import process. We manage everything – from vehicle inspection to documentation and shipping – so you can relax and wait for your delivery.</p>
-        <p>Every vehicle is checked thoroughly to ensure you get the best deal.</p>
+        <h3 class="section-title">Find the Best Cars & Auto Parts in Kenya</h3>
+        <p>Use advanced filters at YRT to select make, model, engine, and color. Once you’ve chosen your ideal vehicle or parts, we handle everything else — from purchase to delivery in Kenya.</p>
+        <p>Explore our vehicle stock or use the ‘Buy Parts’ tab for accessories and spares.</p>
     </div>
 </section>
 
-<!-- Delivery Section -->
+<!-- Documentation -->
 <section class="py-5">
     <div class="container">
-        <h3 class="section-title">Secure & Fast Delivery to Zambia</h3>
-        <p>We work with trusted logistics partners to ensure your car arrives safely and on time. Our shipping system guarantees a smooth and secure experience, no matter where in Zambia you are.</p>
-        <a href="#reviews" class="btn btn-red mt-3">Hear from our customers</a>
+        <h3 class="section-title">We Handle Documentation & Shipping</h3>
+        <p>Importing a car from Japan to Kenya doesn’t have to be difficult. YRT takes care of all the steps: from paperwork to secure delivery via trusted shipping partners — ensuring a smooth and timely process.</p>
+        <a href="/how-to-buy" class="btn btn-red mt-3">See How It Works</a>
     </div>
 </section>
 
 <!-- Reviews -->
 <section class="bg-light py-5" id="reviews">
     <div class="container">
-        <h3 class="section-title">Customer Testimonials</h3>
-        @foreach (var review in new[]{
-        new {Name="Ms. Jika N.", Comment="My ordered vehicle has safely arrived in Zambia and is in top condition. Highly grateful to YRT."},
-        new {Name="Mr. Michael P.", Comment="I now own and drive a fuel-efficient Japanese car. Delivered quickly!"},
-        new {Name="Mr. Mutale N.", Comment="I thought it’d be complex to import, but YRT made it so easy!"},
-        new {Name="Ms. Florence M.", Comment="I’m very glad to receive the IST in excellent condition. Thank you Yuki and Lusaka office."},
-        new {Name="Ms. Catherine N.", Comment="My car arrived in good time. Everyone loves it. I'm impressed and happy!"},
-        new {Name="Mr. John S.", Comment="Vehicle from Nakonde is excellent. You’re a lovely company!"},
-        new {Name="Mr. Aaron M.", Comment="This is my second purchase. Never disappointed. My friends are buying from you too!"}
+        <h3 class="section-title">Customer Testimonials from Kenya</h3>
+        @foreach (var review in new[] {
+        new { Name = "Mr. Masai A.", Comment = "I received my SUZUKI JIMNY 2024 and the parts I requested. Great service and fast delivery. I’ll be back!" },
+        new { Name = "Mr. Emmanuel J.", Comment = "The car I got from YRT is exactly what I expected. Very satisfied with their service and support." },
+        new { Name = "Ms. Esther M.", Comment = "The pictures looked amazing — but the actual car looked even better! Highly recommended." }
         })
         {
             <div class="review-card">
-                <strong>@review.Name (Zambia)</strong>
+                <strong>@review.Name (Kenya)</strong>
                 <p>@review.Comment</p>
             </div>
         }
     </div>
 </section>
 
-<!-- FAQ Section -->
+<!-- FAQs -->
 <section class="py-5" id="faqs">
     <div class="container">
         <h3 class="section-title">Frequently Asked Questions</h3>
@@ -138,12 +133,12 @@
                 <h2 class="accordion-header" id="faq1Heading">
                     <button class="accordion-button collapsed faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq1"
                             aria-expanded="false" aria-controls="faq1">
-                        <i class="bi bi-truck faq-icon"></i> What is the process of importing a car from Japan?
+                        <i class="bi bi-tools faq-icon"></i> Are Japanese cars cheaper to maintain?
                     </button>
                 </h2>
                 <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1Heading" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        We handle the full process: auction bidding, inspection, export documentation, and delivery to Zambia. You just choose your vehicle!
+                        Yes, Japanese cars are known for their low maintenance costs and widely available spare parts. This makes them ideal for long-term ownership in Kenya.
                     </div>
                 </div>
             </div>
@@ -151,12 +146,12 @@
                 <h2 class="accordion-header" id="faq2Heading">
                     <button class="accordion-button collapsed faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq2"
                             aria-expanded="false" aria-controls="faq2">
-                        <i class="bi bi-clock-history faq-icon"></i> How long can Japanese cars last?
+                        <i class="bi bi-globe2 faq-icon"></i> How can I import a car from Japan to Kenya?
                     </button>
                 </h2>
                 <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2Heading" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        Typically 13–15 years or more with proper care. Japanese cars are known for longevity and reliability. We provide condition and mileage details.
+                        Simply partner with YRT — we’re a trusted Japanese car importer for Kenya. You choose the car, and we’ll take care of shipping, documentation, and delivery.
                     </div>
                 </div>
             </div>
@@ -167,9 +162,9 @@
 <!-- Footer CTA -->
 <footer class="bg-red-gradient text-white text-center py-5">
     <div class="container">
-        <h4 class="fw-bold">Ready to Get Your Japanese Car?</h4>
-        <p>Browse our inventory and order today – we’ll take care of the rest!</p>
-        <a href="#catalogue" class="btn btn-light btn-lg mt-2">Explore Now</a>
+        <h4 class="fw-bold">Start Driving Your Japanese Dream Car in Kenya</h4>
+        <p>Check our latest vehicles and place your order today!</p>
+        <a href="#catalogue" class="btn btn-light btn-lg mt-2">Explore Cars</a>
     </div>
 </footer>
 

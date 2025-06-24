@@ -1,13 +1,12 @@
 ﻿@{
-    ViewBag.Title = "Buy used Japanese vehicles in Zambia only at YRT Japan!";
+    ViewBag.Title = "Choose YRT for used Japanese vehicles in DR Congo!";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @section MetaTags {
-    <meta name="description" content="Are you looking for used Japanese cars for sale in Zambia from reliable sellers? Check out YRT Japan today for the best car deal!">
+    <meta name="description" content="Are you searching for the best used Japanese cars in DR Congo? Check out the best options to choose from at YRT Japan!">
 }
 
-<!-- Custom Styles -->
 <style>
     .bg-red-gradient {
         background: linear-gradient(135deg, #c10000, #7b0000);
@@ -65,64 +64,60 @@
 <!-- Header -->
 <header class="bg-red-gradient text-white py-5 text-center">
     <div class="container">
-        <h1 class="display-5 fw-bold">Buy Japanese Cars in Zambia</h1>
-        <p class="lead mt-2">Get the best deals on reliable Japanese vehicles – only at YRT Japan</p>
-        <a href="#catalogue" class="btn btn-light btn-lg mt-3">Browse Vehicles</a>
+        <h1 class="display-5 fw-bold">Import Japanese Cars to DR Congo</h1>
+        <p class="lead mt-2">Get high-performance and fuel-efficient vehicles from Japan — only at YRT!</p>
+        <a href="#catalogue" class="btn btn-light btn-lg mt-3">Browse Stock</a>
     </div>
 </header>
 
-<!-- Intro Section -->
+<!-- Intro -->
 <section class="py-5 bg-light text-center">
     <div class="container">
-        <h2 class="text-red fw-bold mb-3">Drive Your Dream Car in Zambia</h2>
-        <p class="lead">We connect you to top Japanese car auctions, handle shipping, and deliver right to Zambia.</p>
-        <a href="#faqs" class="btn btn-red mt-3">Got Questions?</a>
+        <h2 class="text-red fw-bold mb-3">Reliable Used Japanese Vehicles in DR Congo</h2>
+        <p class="lead">From car auctions to doorstep delivery — YRT handles everything for you.</p>
+        <a href="#faqs" class="btn btn-red mt-3">FAQs</a>
     </div>
 </section>
 
 <!-- Catalogue Section -->
 <section class="py-5" id="catalogue">
     <div class="container">
-        <h3 class="section-title">Buy Japanese Cars in Zambia</h3>
-        <p>YRT can make your dream of owning a reliable and fuel efficient Japanese car a reality. Browse our catalogue to find the best used cars, SUVs, and vans imported directly from Japan.</p>
-        <p>We provide not only the best stock but also access to premium Japanese automobile auctions.</p>
+        <h3 class="section-title">The Best Japanese Cars in DR Congo</h3>
+        <p>Fuel-efficient, durable, and high-performing — Japanese vehicles are highly sought after in DR Congo. YRT gives you access to thousands of options from our direct stock and premium auctions.</p>
+        <p>Choose your dream car today and let our experts handle everything else.</p>
     </div>
 </section>
 
 <!-- Paperwork Section -->
 <section class="bg-light py-5">
     <div class="container">
-        <h3 class="section-title">Leave the Paperwork to Us</h3>
-        <p>Don’t worry about the complexity of the import process. We manage everything – from vehicle inspection to documentation and shipping – so you can relax and wait for your delivery.</p>
-        <p>Every vehicle is checked thoroughly to ensure you get the best deal.</p>
+        <h3 class="section-title">We Manage Documentation & Shipping</h3>
+        <p>Importing a car from Japan doesn’t have to be stressful. At YRT, we guide you through the paperwork, manage all formalities, and ensure a seamless shipping experience with our trusted partners.</p>
+        <p>Your vehicle arrives safely and on time — ready for the roads of DR Congo.</p>
     </div>
 </section>
 
-<!-- Delivery Section -->
+<!-- Inspection Section -->
 <section class="py-5">
     <div class="container">
-        <h3 class="section-title">Secure & Fast Delivery to Zambia</h3>
-        <p>We work with trusted logistics partners to ensure your car arrives safely and on time. Our shipping system guarantees a smooth and secure experience, no matter where in Zambia you are.</p>
-        <a href="#reviews" class="btn btn-red mt-3">Hear from our customers</a>
+        <h3 class="section-title">Quality Inspection & Complete Satisfaction</h3>
+        <p>Every vehicle is thoroughly inspected and we provide you with complete details and real photos before purchase. Our team stays connected with you throughout the buying process for peace of mind.</p>
+        <a href="/auctions" class="btn btn-red mt-3">View Auction Calendar</a>
     </div>
 </section>
 
 <!-- Reviews -->
 <section class="bg-light py-5" id="reviews">
     <div class="container">
-        <h3 class="section-title">Customer Testimonials</h3>
-        @foreach (var review in new[]{
-        new {Name="Ms. Jika N.", Comment="My ordered vehicle has safely arrived in Zambia and is in top condition. Highly grateful to YRT."},
-        new {Name="Mr. Michael P.", Comment="I now own and drive a fuel-efficient Japanese car. Delivered quickly!"},
-        new {Name="Mr. Mutale N.", Comment="I thought it’d be complex to import, but YRT made it so easy!"},
-        new {Name="Ms. Florence M.", Comment="I’m very glad to receive the IST in excellent condition. Thank you Yuki and Lusaka office."},
-        new {Name="Ms. Catherine N.", Comment="My car arrived in good time. Everyone loves it. I'm impressed and happy!"},
-        new {Name="Mr. John S.", Comment="Vehicle from Nakonde is excellent. You’re a lovely company!"},
-        new {Name="Mr. Aaron M.", Comment="This is my second purchase. Never disappointed. My friends are buying from you too!"}
+        <h3 class="section-title">Customer Testimonials from DR Congo</h3>
+        @foreach (var review in new[] {
+        new { Name = "Mr. Pierre J.", Comment = "I finally own a Japanese car thanks to YRT. The car runs smoothly and arrived safely." },
+        new { Name = "Ms. Jean A.", Comment = "I received my HONDA ZR-V 2024 and it looks even better than expected. Thank you for the smooth experience!" },
+        new { Name = "Mr. Alain P.", Comment = "YRT took the fear out of importing. Everything was done for me. Highly recommended for DR Congo buyers!" }
         })
         {
             <div class="review-card">
-                <strong>@review.Name (Zambia)</strong>
+                <strong>@review.Name (DR Congo)</strong>
                 <p>@review.Comment</p>
             </div>
         }
@@ -138,12 +133,12 @@
                 <h2 class="accordion-header" id="faq1Heading">
                     <button class="accordion-button collapsed faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq1"
                             aria-expanded="false" aria-controls="faq1">
-                        <i class="bi bi-truck faq-icon"></i> What is the process of importing a car from Japan?
+                        <i class="bi bi-globe2 faq-icon"></i> How do you import a car from Japan to DR Congo?
                     </button>
                 </h2>
                 <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1Heading" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        We handle the full process: auction bidding, inspection, export documentation, and delivery to Zambia. You just choose your vehicle!
+                        Choose YRT as your trusted importer. Browse our stock or auctions, pick your car, and we’ll handle the inspection, paperwork, and shipping to DR Congo.
                     </div>
                 </div>
             </div>
@@ -151,12 +146,12 @@
                 <h2 class="accordion-header" id="faq2Heading">
                     <button class="accordion-button collapsed faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq2"
                             aria-expanded="false" aria-controls="faq2">
-                        <i class="bi bi-clock-history faq-icon"></i> How long can Japanese cars last?
+                        <i class="bi bi-star faq-icon"></i> Are Japanese import cars worth it?
                     </button>
                 </h2>
                 <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2Heading" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        Typically 13–15 years or more with proper care. Japanese cars are known for longevity and reliability. We provide condition and mileage details.
+                        Absolutely. Japanese cars are known for fuel efficiency, low maintenance costs, and durability. YRT ensures you get top-quality vehicles — safely delivered to DR Congo.
                     </div>
                 </div>
             </div>
@@ -167,9 +162,9 @@
 <!-- Footer CTA -->
 <footer class="bg-red-gradient text-white text-center py-5">
     <div class="container">
-        <h4 class="fw-bold">Ready to Get Your Japanese Car?</h4>
-        <p>Browse our inventory and order today – we’ll take care of the rest!</p>
-        <a href="#catalogue" class="btn btn-light btn-lg mt-2">Explore Now</a>
+        <h4 class="fw-bold">Ready to Buy a Japanese Car in DR Congo?</h4>
+        <p>Explore stock, join auctions, and let YRT take care of the rest!</p>
+        <a href="#catalogue" class="btn btn-light btn-lg mt-2">Get Started Now</a>
     </div>
 </footer>
 
